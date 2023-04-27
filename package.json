@@ -1,0 +1,17 @@
+{
+  "name": "code-analysis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "eslint": "eslint --fix --ext .js ./lib"
+  },
+  "dependencies": {
+    "glob": "^10.2.1",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "prettier": "^2.8.7"
+  }
+}
